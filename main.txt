@@ -1,0 +1,27 @@
+# FA10 - mll469
+
+1 > Undirected tree (V, E) with n V's and n-1 E's. Diameter \defined largets of shortest paths to every path in tree. \[D = max_{x,y\belongingto V} \sigma(x,y).
+O(n) algrithm to compute D:
+
+1.1 r is root. b is farthest node from r. Prove by induction? 
+
+1.2 Depth first search keeping track of depth via start and finish, taking n steps.  
+
+2 > Connected Undirected graph G = (V, E), V identified with ints 1 to n. 
+Run in O(|V|+|E|). Find a permuation \pi V[n] 
+
+3 > 
+
+3.1 Vertex u DFS in directed graph can only have even with ingoing and outgoing? 
+
+3.2 Yes, and I don't know what the white path theorem is.
+
+4 > Directed graph G contains a path from u to v, then any DFS must result in v.d <= u.f
+
+5 > Depth first forest v.cc nd k. Runtime O(V+E)
+
+6 > MST
+
+7 > Edge (u,v) is in MST, crosses graph
+
+8 > (u,v) (S,V \ S)
