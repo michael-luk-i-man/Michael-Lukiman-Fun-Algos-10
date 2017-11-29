@@ -5,14 +5,40 @@ O(n) algrithm to compute D:
 
 1.1 r is root. b is farthest node from r. Prove by induction? 
 
-1.2 Depth first search keeping track of depth via start and finish, taking n steps.  
+1.2 Depth first search keeping track of depth via start and finish, taking n steps.  # CODE # 
 
 2 > Connected Undirected graph G = (V, E), V identified with ints 1 to n. 
-Run in O(|V|+|E|). Find a permuation \pi V[n] 
+Run in O(|V|+|E|). Find a permuation \pi V[n] # CODE # 
 
 3 > 
 
 3.1 Vertex u DFS in directed graph can only have even with ingoing and outgoing? 
+
+
+	*
+      \ 
+       a
+       :
+       b
+       :
+       c
+       
+       
+       
+Consider a graph where (*) is the first node to search, and (|), (\), and (/) signifies directions going downward and (:) signifies directions going upward. 
+
+DFS would go through * and then a, but since the connection to a from b is going upward, there are no more reachable nodes from that tree. That tree is done and those nodes are explored. 
+
+DFS then goes on to the next vertex/node in the list, and in this counterexample we must assume it is vertex b. Since vertex b projects to vertex a, but vertex a is already explored, it ignores it. Since the connection between b to c goes upward, c is also unreachable from this tree. Therefore, b has no new reachable nodes in this search, and the tree is closed with just a single u, which is the node b.  
+
+Of course, DFS would then go to vertex c and observe that b is already explored, and it will also be a lone node. 
+
+Node b is a node with ingoing and outgoing projections, yet DFS has it in  a tree by itself. 
+
+
+
+
+and the connection from b to * is going upward, there is no way to reach a from there either. So the tree would just be [*, b, c].  So that tree is done. The next step of DFS would be to search a, which has no unexplored nodes connected to it, even though it projects to * and c. 
 
 3.2 Yes, and I don't know what the white path theorem is.
 

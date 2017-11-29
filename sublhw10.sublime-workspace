@@ -113,10 +113,19 @@
 			"file": "FA10 1-2.py",
 			"settings":
 			{
-				"buffer_size": 606,
+				"buffer_size": 1160,
 				"encoding": "UTF-8",
 				"line_ending": "Unix",
 				"name": "# FA10 1.2"
+			}
+		},
+		{
+			"file": "FA10 2.py",
+			"settings":
+			{
+				"buffer_size": 13,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
 			}
 		}
 	],
@@ -127,10 +136,14 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 97.0,
-		"last_filter": "backgr",
+		"height": 345.0,
+		"last_filter": "back",
 		"selected_items":
 		[
+			[
+				"back",
+				"BackgroundColorEdit: Set Background Color"
+			],
 			[
 				"backgr",
 				"BackgroundColorEdit: Set Background Color"
@@ -138,10 +151,6 @@
 			[
 				"color",
 				"Colorsublime: Install Theme"
-			],
-			[
-				"back",
-				"BackgroundColorEdit: Set Background Color"
 			],
 			[
 				" backgr",
@@ -414,7 +423,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -430,8 +439,8 @@
 						"selection":
 						[
 							[
-								356,
-								356
+								569,
+								569
 							]
 						],
 						"settings":
@@ -443,7 +452,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -452,20 +461,48 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 606,
+						"buffer_size": 1160,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								503,
-								503
+								334,
+								334
 							]
 						],
 						"settings":
 						{
 							"auto_name": "# FA10 1.2",
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "FA10 2.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 13,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13,
+								13
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Python/Python.sublime-syntax"
 						},
 						"translation.x": 0.0,

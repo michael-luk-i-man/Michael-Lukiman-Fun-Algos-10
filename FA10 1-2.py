@@ -49,4 +49,3 @@ def DFS-visit-modified(G,u):
 	t=t+1 # Progress time. 
 	u.f = t # Finish time of u is current time. 
 
-
